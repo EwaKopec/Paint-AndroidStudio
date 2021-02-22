@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.paint.PaintView
+        android:id="@+id/paintview"
+        android:layout_width="match_parent"
+        android:layout_height="643dp"
+        android:clickable="true"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/colorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="70dp"
+        android:text="Color"
+        android:textColor="#673AB7"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/lineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="2dp"
+        android:text="Line"
+        android:textColor="#673AB7"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/pathButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="path"
+        android:textColor="#673AB7"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="550dp"/>
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCKG"
+        android:textColor="#673AB7"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/returnbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:textColor="#673AB7"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/clearbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:textColor="#673AB7"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="500dp"/>
+</RelativeLayout>
