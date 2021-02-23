@@ -17,9 +17,9 @@
         android:id="@+id/colorButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
         android:layout_marginTop="550dp"
-        android:layout_marginLeft="70dp"
-        android:text="Color"
+        android:text="Kolor"
         android:textColor="#673AB7"
         android:visibility="visible"
         tools:visibility="visible" />
@@ -28,37 +28,28 @@
         android:id="@+id/lineButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
+        android:layout_marginLeft="230dp"
         android:layout_marginTop="550dp"
         android:layout_marginBottom="2dp"
-        android:text="Line"
+        android:text="Lina"
         android:textColor="#673AB7"
         android:visibility="visible"
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/pathButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="path"
-        android:textColor="#673AB7"
-        android:layout_marginLeft="270dp"
-        android:layout_marginTop="550dp"/>
-
-    <Button
         android:id="@+id/backbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BCKG"
-        android:textColor="#673AB7"
         android:layout_marginLeft="270dp"
-        android:layout_marginTop="500dp"/>
+        android:layout_marginTop="500dp"
+        android:text="Tło"
+        android:textColor="#673AB7" />
 
     <Button
         android:id="@+id/returnbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Return"
+        android:text="Cofnij"
         android:textColor="#673AB7"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="500dp"/>
@@ -67,7 +58,7 @@
         android:id="@+id/clearbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="clear"
+        android:text="Wyczyść"
         android:textColor="#673AB7"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="500dp"/>

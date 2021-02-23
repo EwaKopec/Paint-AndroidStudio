@@ -34,7 +34,6 @@ public class PaintView extends View implements View.OnTouchListener {
     }
 
     private void init() {
-        //aktualna farba
         current_paint = new Paint();
         current_paint.setAntiAlias(true);
         current_paint.setColor(Color.BLUE);
@@ -43,7 +42,6 @@ public class PaintView extends View implements View.OnTouchListener {
         paint_list = new ArrayList<Paint>();
         path_list = new ArrayList<Path>();
         setOnTouchListener(this);
-
     }
     @Override
     public boolean onTouch(View v, MotionEvent event) {
